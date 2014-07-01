@@ -1,0 +1,31 @@
+body {
+    background: red;
+}
+
+div.main_content { 
+    background: white;
+    color: red;   
+    width: 400px;
+    height: 300px;
+    border: 3px solid green;
+    text-align: center;
+    margin-top: 250px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input.required {   
+    color: green;
+    font-size:20px;     
+}
+
+input.ingress {
+    cursor: pointer;
+}
+
+div.footer {
+    border: 1px solid green;
+    clear: left;
+    text-align: center;
+}
+

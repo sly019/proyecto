@@ -1,17 +1,14 @@
 body {
-    background: black;
+    background: white;
 }
 
-div.main_content { 
-    background: white;
-    color: black;   
-    width: 400px;
-    height: 300px;
-    border: 3px solid green;
-    text-align: center;
-    margin-top: 250px;
-    margin-right: auto;
-    margin-left: auto;
+div.main{ 
+    color: green;   
+    width: auto;
+    height: 5px;
+    margin-left: 105px;
+    font-size:20px; 
+    padding: 50px;
 }
 
 input.required {   
@@ -23,3 +20,47 @@ input.ingress {
     cursor: pointer;
 }
 
+div.header {
+    width: auto;    
+    margin-top: 50px;
+    background-image: url(http://www.arqhys.com/construccion/fotos/construccion/Clases-de-muros-300x225.png) 
+}
+
+div#login{
+    text-align: right;
+    height: 50px;
+}
+
+a.box{
+color: green; 
+width:auto;
+height: 5px;
+float:left;
+margin-left: 105px;
+padding: 30px;
+}
+
+footer{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+background:none repeat scroll 0 0 black;
+bottom:0;
+left:0;
+clear:both;
+margin-top:10px;
+padding:5px 5px;
+position: fixed;
+width:100%;
+height:50px;
+text-align:center;
+border-top: 5px solid green;
+font-size:14px;
+color: red;
+}
+
+img#img_inicio{
+position:absolute;
+left:1300px;
+top:135px;
+width:200px;
+height:131px;
+}
