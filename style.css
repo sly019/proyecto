@@ -48,7 +48,7 @@ left:0;
 clear:both;
 margin-top:10px;
 padding:5px 5px;
-position: fixed;
+position: left;
 width:100%;
 height:50px;
 text-align:center;
@@ -58,9 +58,45 @@ color: red;
 }
 
 img#img_inicio{
-position:absolute;
-left:1300px;
-top:135px;
 width:200px;
 height:131px;
+padding:65px 190px;
+}
+
+div.inicio_info{
+width:auto;
+height:auto;
+font-size:18px;
+padding:65px 290px;
+}
+
+div.estudiante_info{
+width:auto;
+height:auto;
+font-size:18px;
+padding:65px 290px;
+}
+
+h2#title_notice{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size:32px;
+color: blue;
+}
+
+h3#title_main{
+font-family:"Helvetica",Trebuchet, Arial, Helvetica, sans-serif;
+font-size:20px;
+color: white;
+}
+
+td#checkbox{
+    text-align: center;
+    vertical-align: center;
+}
+
+button{
+   width:75px;
+   padding: 4px;
+   margin-top: 50px;
+   margin-left: 100px;
 }
