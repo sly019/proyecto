@@ -70,12 +70,30 @@ font-size:18px;
 padding:65px 290px;
 }
 
+div.botonera{
+width:600px;
+height:100px;
+padding:0px;
+padding-left: 250px;
+text-align: center;
+}
+
+div.titulo_secundario{
+width:auto;
+height:auto;
+font-size:18px;
+padding:15px 290px;
+}
+
 div.estudiante_info{
 width:auto;
 height:auto;
 font-size:18px;
-padding:65px 290px;
+padding:25px 290px;
+text-align: center;
 }
+
+
 
 h2#title_notice{
 font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -99,4 +117,38 @@ button{
    padding: 4px;
    margin-top: 50px;
    margin-left: 100px;
+}
+
+/*estilo para formulario*/
+
+div.float{
+    float: left;
+    padding: 50px 100px; 
+}
+
+form#info{
+ padding: 50px 200px; 
+ float: left;
+ margin: 20px;
+}
+
+div.principal_float{
+float: left; 
+width:1300px;
+height:300px;
+margin-left: 100px;
+margin-top: 98px;
+}
+
+
+img#img_formulario{
+float: right;
+width:400px;
+height:231px;
+padding-top: 100px;
+padding-right: 270px;
+}
+
+div#button{
+    padding-top: 40px;
 }
