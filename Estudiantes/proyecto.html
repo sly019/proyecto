@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>SIGE</title>
+        <link rel="stylesheet" type="text/css" href="../style.css">  
+        <script type="text/javascript" src="../jss.js"></script> 
+    </head>
+    <body>	
+        <div>
+            <h1>Agregar proyecto</h1>                      
+            <img id="img_formulario"; src="http://activoseninternet.com/wp-content/uploads/2011/10/proyecto-de-vida.jpg"> </img>
+        </div>  
+            <div> 
+                <form id="proyecto_N" action="salvar.php" method="get" name="form_1">
+                    <label for="nombre">Nombre curso</label>
+                    <input type="text" size="16" maxlength="15" id="nombre" name="nombre"></input>
+                    <br/><br/>
+                    <label for="cedula">Duración</label>
+                    <input type="text" size="16" maxlength="15" id="cedula" name="cedula"></input>
+                    <br/><br/>
+                    <label for="apellido">Tecnologia usada</label>
+                    <input type="text" id="apellido" name="apellido" ></input>
+                    <br />  <br/>   
+                    <label for="cedula">Descripcion del proyecto</label>
+                    <input type="text" size="16" maxlength="15" id="cedula" name="cedula"></input>
+                    <br/><br/>
+                    <label for="apellido">Calificación</label>
+                    <input type="text" id="apellido" name="apellido" ></input>
+                    <br />  <br/>  
+                    <label for="Estado">Fecha</label>
+                    <input type="date" name="fecha">
+                    <br />  <br/>  
+                    <textarea name="comentarios" rows="10" cols="40">Escribe aquí tus comentarios</textarea>
+                    <br />          
+                </form>   
+                <div id="button_Proyecto">                    
+                    <button onclick="Funcion_cancelar()">Cancelar</button>
+                    <button onclick="Funcion_agregar_proy()">Agregar</button>               
+                </div>
+    	<footer>
+        <p>UTN 2014, todos los derechos reservados &copy;</p>
+        </footer>	 
+    </body>
+</html>
+

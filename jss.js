@@ -8,6 +8,23 @@ function Funcion_eliminar() {
     }
 }
 
+function Funcion_eliminar_carrera() {
+    if (confirm('Desea borrar la carrera seleccionada??')) {
+        alert('Carrera borrada exitosamente');
+        document.location.href='../Carreras/carrera.html';
+    } else {
+        document.location.href='../Carreras/carrera.html';
+    }
+}
+
+function Funcion_eliminar_usser() {
+    if (confirm('Desea borrar el usuario seleccionado??')) {
+        alert('Usuario borrado exitosamente');
+        document.location.href='../Usuarios/usuario.html';
+    } else {
+        document.location.href='../Usuarios/usuario.html';
+    }
+}
 
 function Funcion_agregar() {
     if (confirm('Desea agregar un estudiante nuevo??')) {
@@ -15,6 +32,24 @@ function Funcion_agregar() {
         ;
     } else {
         document.location.href='../Estudiantes/estudiante.html';
+    }
+}
+
+function Funcion_agregar_carrera() {
+    if (confirm('Desea agregar una carrera nueva??')) {
+       open("../Carreras/agregar.html", "Sizewindow","width=2500,height=1000,scrollbars=no,toolbar=no, Resizable=no")
+        ;
+    } else {
+        document.location.href='../Carreras/carrera.html';
+    }
+}
+
+function Funcion_agregar_usser() {
+    if (confirm('Desea agregar un usuario nuevo??')) {
+       open("../Usuarios/agregar.html", "Sizewindow","width=2500,height=1000,scrollbars=no,toolbar=no, Resizable=no")
+        ;
+    } else {
+        document.location.href='../Usuarios/usuario.html';
     }
 }
 
@@ -26,11 +61,13 @@ function Funcion_ver() {
     }
 }
 
+function Funcion_proyecto() {
+    open("../Estudiantes/proyecto.html", "Sizewindow","width=2500,height=1000,scrollbars=yes,toolbar=yes"); 
+}
 
 function Funcion_cancelar() {
         window.close();
-    }
-
+}
 
 function Funcion_agregar_est() {
     alert  ("Se agregó el estudiante correctamente")
@@ -46,4 +83,59 @@ function Funcion_editar_est() {
     open("../Estudiantes/edicion.html", "Sizewindow","width=2500,height=1000,scrollbars=yes,toolbar=yes");
 }
 
+function Funcion_agregar_proy() {
+    alert  ("Se agregó el proyecto correctamente")
+    open("../Estudiantes/formulario.html", "Sizewindow","width=2500,height=1000,scrollbars=no,toolbar=no, Resizable=no")
+        ;
+}
 
+function Funcion_editar_proy() {
+    open("../Estudiantes/proyecto_editar.html", "Sizewindow","width=2500,height=1000,scrollbars=no,toolbar=no, Resizable=no")
+        ;
+}
+
+function Funcion_guard_edicion() {    
+       open("../Estudiantes/ver_salir.html", "Sizewindow","width=2500,height=1000,scrollbars=yes,toolbar=yes");   
+}
+
+function Funcion_agregada_carrera() {
+    alert  ("Se agregó la carrera correctamente")
+       open("../Carreras/carrera.html", "Sizewindow","width=2500,height=1000,scrollbars=no,toolbar=no, Resizable=no")
+        ;  
+}
+
+function Funcion_cancelar_carrera() {
+       open("../Carreras/carrera.html", "Sizewindow","width=2500,height=1000,scrollbars=no,toolbar=no, Resizable=no")
+        ;  
+}
+
+function Funcion_ver_carrera() {
+       open("../Carreras/ver.html", "Sizewindow","width=2500,height=1000,scrollbars=no,toolbar=no, Resizable=no")
+        ;  
+}
+
+function Funcion_editar_carrera() {
+       open("../Carreras/edicion.html", "Sizewindow","width=2500,height=1000,scrollbars=no,toolbar=no, Resizable=no")
+        ;  
+}
+
+function Funcion_agregada_usser() {
+    alert  ("Se agregó el usuario correctamente")
+       open("../Usuarios/usuario.html", "Sizewindow","width=2500,height=1000,scrollbars=no,toolbar=no, Resizable=no")
+        ;  
+}
+
+function Funcion_cancelar_usser() {
+       open("../Usuarios/usuario.html", "Sizewindow","width=2500,height=1000,scrollbars=no,toolbar=no, Resizable=no")
+        ;  
+}
+
+function Funcion_ver_usser() {
+       open("../Usuarios/ver.html", "Sizewindow","width=2500,height=1000,scrollbars=no,toolbar=no, Resizable=no")
+        ;  
+}
+
+function Funcion_editar_usser() {
+       open("../Usuarios/edicion.html", "Sizewindow","width=2500,height=1000,scrollbars=no,toolbar=no, Resizable=no")
+        ;  
+}

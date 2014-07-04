@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>SIGE</title>
+        <link rel="stylesheet" type="text/css" href="../style.css">  
+        <script type="text/javascript" src="../jss.js"></script> 
+    </head>
+    <body>	
+        <div>
+            <h1>Ver usuarios</h1>                      
+            <img id="img_formulario"; src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ-3kh1v4YdWeckaHvg6RE7_lD-c06XNcrJbKJaXEHVlR2x3brd"> </img>
+        </div>  
+        </div>   
+            <form id="info" action="salvar.php" method="get" name="form_1">
+                <label for="nombre">Nombre de usuario</label>
+                <input type="text" value="Stephanie Vargas" readonly="readonly" size="16" maxlength="15" id="nombre" name="nombre"></input>
+                <br/><br/>
+                <label for="Nick">Nick </label>
+                <input type="text" value="Ruby_51" readonly="readonly" size="16" maxlength="15" id="Nick" name="Nick"></input>
+                <br/><br/>
+                <label for="Cedula">Cedula</label>
+                <input type="text" value="5-317-532" readonly="readonly" id="Cedula" name="Cedula" ></input>
+                <br />  <br/>
+                <div class="float">
+                    <h2>Roll de usuario</h2>
+                    <label for="Administrador">Administrador</label>
+                    <input type="checkbox" disabled="disabled" id="Administrador" name="Administrador"></input> <br /> <br />
+                    <label for="Director de carrera">Director de carrera</label>
+                    <input type="checkbox" disabled="disabled" id="Director de carrera" name="Director de carrera"></input> <br /> <br />
+                    <label for="Ambos">Ambos</label>
+                    <input type="checkbox" checked="true" disabled="disabled" id="Ambos" name="Ambos"></input> <br /> <br />
+                </div>
+            <br />           
+            </form>
+            <br />
+            <div class="botonera_peq">
+                    <button onclick="Funcion_cancelar_usser()">Cancelar</button>
+                    <button onclick="Funcion_editar_usser()">Editar</button>                                  
+            </div> 
+        </div>
+    	<footer>
+        <p>UTN 2014, todos los derechos reservados &copy;</p>
+        </footer>	 
+    </body>
+</html>
+

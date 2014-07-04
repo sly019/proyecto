@@ -8,92 +8,26 @@
     </head>
     <body>	
         <div>
-            <h1>Ver estudiante</h1>                      
+            <h1>Ver Carrera</h1>                      
             <img id="img_formulario"; src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ-3kh1v4YdWeckaHvg6RE7_lD-c06XNcrJbKJaXEHVlR2x3brd"> </img>
-        </div>   
+        </div>  
+        <div>   
             <form id="info" action="salvar.php" method="get" name="form_1">
-                <label for="nombre">Nombre</label>
-                <input type="text" size="16"  value="Elias" readonly="readonly" maxlength="15" id="nombre" name="nombre"></input>
+                <label for="nombre">Nombre carrera</label>
+                <input type="text"  readonly="readonly" value="Diplomado Tecnologías Informáticas" size="30" maxlength="15" id="nombre" name="nombre"></input>
                 <br/><br/>
-                <label for="cedula">Cedula</label>
-                <input type="text" size="16" value="204300294" readonly="readonly" maxlength="15" id="cedula" name="cedula"></input>
+                <label for="Codigo">Codigo </label>
+                <input type="text" readonly="readonly" value="ISW-502" size="16" maxlength="15" id="Codigo" name="Codigo"></input>
                 <br/><br/>
-                <label for="apellido">Apellido</label>
-                <input type="text" value="Castro Acuña" readonly="readonly" id="apellido" name="apellido" ></input>
-                <br />  <br/>              
-                <label for="pais">Pa&iacute;s</label>
-                <select id="country" name="country">
-                    <option value="_"></option>
-                    <option selected="true" value="Cr">Costa Rica</option>
-                    <option disabled="disabled" value="Us">USA</option>
-                    <option disabled="disabled" value="Nic">Nicaragua</option>
-                    <option disabled="disabled" value="Pan">Panama</option>
-                </select>
-                <br/> <br/>               
-                <label for="gender">Género</label>
-                <input type="radio" id="Femenino" disabled="disabled" name="Femenino" >Femenino</input>
-                <input type="radio" id="Hombre" checked="true" name="Hombre" >Hombre</input>
-                <br /> <br />
-                <label for="Carrera">Carrera</label>
-                <select id="Carrera" name="Carrera">
-                    <option value="_"></option>
-                    <option selected="true" value="Informatica">Informatica</option>
-                    <option disabled="disabled"  value="Salud_amb">Salud ambiental</option>
-                    <option disabled="disabled"  value="Administracion">Administracion</option>                    
-                </select>
-                <br /> <br /> 
-                <label for="Estado">Estado</label>
-                <select id="Estado" name="Estado">
-                    <option value="_"></option>
-                    <option selected="true" value="bachi_fin">Bachiller finalizado   </option>
-                    <option disabled="disabled"  value="Diplo_curso">Diplomado en curso    </option>
-                    <option disabled="disabled"  value="Lic_final">Licenciatura finalizada  </option>                    
-                </select>
-                <br />           
+                <label for="Director de carrera">Director de carrera</label>
+                <input type="text"  readonly="readonly" value="Danilo Vargas Valenciano" id="Director de carrera" name="Director de carrera" ></input>
+                <br />  <br/>          
             </form>
-            <div class="principal_float">
-                 <div class="float">
-                    <h2>Destrezas</h2>
-                    <label for="Creativo">Creativo</label>
-                    <input type="checkbox" disabled="disabled" checked="true" id="creativo" name="creativo"></input> <br />
-                    <label for="responsable">Responsable</label>
-                    <input type="checkbox" disabled="disabled"  id="responsable" name="responsable"></input> <br />
-                    <label for="solidaridad">Solidario</label>
-                    <input type="checkbox" disabled="disabled"  checked="true" id="solidaridad" name="solidaridad"></input> <br />
-                    <label for="trab_equipo">Trabajo en equipo</label>
-                    <input type="checkbox" disabled="disabled"  id="trab_equipo" name="trab_equipo"></input> <br />
-                    <label for="sup_pers">Superacion Personal</label>
-                    <input type="checkbox" disabled="disabled"  checked="true" id="sup_pers" name="sup_pers"></input> <br />
-                </div> 
-                <div class="float">
-                    <h2>Habilidades</h2>
-                    <label for="empatia">Empatia</label>
-                    <input type="checkbox" disabled="disabled"  checked="true" id="empatia" name="empatia"></input> <br />
-                    <label for="pens_creativo">Pensamiento Creativo</label>
-                    <input type="checkbox" disabled="disabled"  id="pens_creativo" name="pens_creativo"></input> <br />
-                    <label for="toma_desicion">Toma de decisiones</label>
-                    <input type="checkbox" disabled="disabled" checked="true" id="toma_desicion" name="toma_desicion"></input> <br />
-                    <label for="autoconocimiento">Autoconocimiento</label>
-                    <input type="checkbox" disabled="disabled"  checked="true" id="autoconocimiento" name="autoconocimiento"></input> <br />
-                    <label for="pensa_critico">Pensamiento Critico</label>
-                    <input type="checkbox" disabled="disabled"  id="pensa_critico" name="pensa_critico"></input> <br />
-                </div> 
-                <div class="float">
-                    <h2>Idiomas</h2>
-                    <label for="Ingles">Ingles</label>
-                    <input type="checkbox" disabled="disabled"  checked="true" id="ingles" name="ingles"></input> <br />
-                    <label for="Español">Español</label>
-                    <input type="checkbox" disabled="disabled"  checked="true" "id="español" name="español"></input> <br />
-                    <label for="Frances">Frances</label>
-                    <input type="checkbox" disabled="disabled"  checked="true" id="frances" name="frances"></input> <br />
-                </div>
-                 <div id="button">                    
-                    <button onclick="Funcion_cancelar()">Cancelar</button>
-                    <button onclick="Funcion_editar_est()">Editar</button>               
-                </div>
-            </div> 
-                <br />
         </div>     
+        <div class="botonera_peq">                    
+            <button onclick="Funcion_cancelar()">Cancelar</button>
+            <button onclick="Funcion_editar_carrera()">Editar</button>               
+        </div>   
     	<footer>
         <p>UTN 2014, todos los derechos reservados &copy;</p>
         </footer>	 

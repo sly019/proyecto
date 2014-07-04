@@ -78,6 +78,15 @@ padding-left: 250px;
 text-align: center;
 }
 
+div.botonera_peq{
+width:600px;
+height:100px;
+padding-left: 250px;
+padding-bottom: 700px; 
+text-align: center;
+}
+
+
 div.titulo_secundario{
 width:auto;
 height:auto;
@@ -127,9 +136,11 @@ div.float{
 }
 
 form#info{
- padding: 50px 200px; 
- float: left;
- margin: 20px;
+width:auto;
+height:auto;
+padding: 50px 150px; 
+float: left;
+margin: 0px;
 }
 
 div.principal_float{
@@ -137,7 +148,7 @@ float: left;
 width:1300px;
 height:300px;
 margin-left: 100px;
-margin-top: 98px;
+margin-top: 20px;
 }
 
 
@@ -152,3 +163,27 @@ padding-right: 270px;
 div#button{
     padding-top: 40px;
 }
+
+div#button_Proyecto{
+width:auto;
+height:auto;
+float: left;
+padding-left: 30px; 
+padding-top: 100px;
+}
+
+
+form#proyecto_N{
+width:auto;
+height:auto;
+padding: 187px 150px; 
+float: left;
+margin: 0px;
+}
+
+textarea.texarea{
+resize:none;
+}
+ 
+
+button_proyecto

@@ -49,7 +49,32 @@
                     <option value="Diplo_curso">Diplomado en curso    </option>
                     <option value="Lic_final">Licenciatura finalizada  </option>                    
                 </select>
-                <br />           
+                 <br /> <br /> 
+                <label for="Proyectos">Proyectos</label>
+                <br /> <br /> 
+                <div class="ver_info">                               
+                <table border=”0″ cellpadding=”0″ cellspacing=”0″>
+                <tr>
+                <th>Curso</th>
+                <th>Duración </th>
+                <th>Tecnologia usada </th> 
+                <th>Descripcion </th> 
+                <th>Fecha </th> 
+                <th>Calificacion</th>
+                <th>Editar</th></tr>
+                <tr>
+                <th>Progra IV</th>
+                <td>22 H</td>
+                <th>JavaScrip</th>
+                <td>Software de farmacia</td>
+                <td>12/09/2014</td>
+                <td>98</td>
+                <td class="none" onMouseOver="this.className='resaltar'" onMouseOut="this.className='none'"> <a onclick="Funcion_editar_proy()">Editar </a></td></tr>
+                <tr>         
+
+
+                </table>                              
+            </div>          
             </form>
             <div class="principal_float">
                  <div class="float">
@@ -83,13 +108,13 @@
                     <label for="Ingles">Ingles</label>
                     <input type="checkbox" checked="true" id="ingles" name="ingles"></input> <br />
                     <label for="Español">Español</label>
-                    <input type="checkbox" checked="true" "id="español" name="español"></input> <br />
+                    <input type="checkbox" checked="true" id="español" name="español"></input> <br />
                     <label for="Frances">Frances</label>
                     <input type="checkbox" checked="true" id="frances" name="frances"></input> <br />
                 </div>
                  <div id="button">                    
                     <button onclick="Funcion_cancelar()">Cancelar</button>
-                    <button onclick="Funcion_editar_est()">Guardar</button>               
+                    <button onclick="Funcion_guard_edicion()">Guardar</button>               
                 </div>
             </div> 
                 <br />

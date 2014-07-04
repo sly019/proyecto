@@ -2,13 +2,14 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Inicio</title>
-        <link rel="stylesheet" type="text/css" href="../style.css">       
+        <title>SIGE</title>
+        <link rel="stylesheet" type="text/css" href="../style.css">     
+        <script type="text/javascript" src="../jss.js"></script>  
     </head>
     <body>	
         <div id="login"  name="login" >
             <img src="http://www.vsantivirus.com/carita.gif"> <p>USUARIO: Admin</p> </img>
-            <img id="img_inicio"; src="http://bjprodutora.com.br/Inicio_20-_20Gif_20-_2002.gif?v=33xo48igsn3jx5"> </img>
+            <img id="img_inicio"; src="http://www.drakon.com.ar/newsletter/graduado.gif"> </img>
         </div>	       
         </div>
         	<div class="header">
@@ -16,23 +17,47 @@
                 <img src="http://2.bp.blogspot.com/-T5HU1nwDb9c/Uqn41rHvH_I/AAAAAAAAAM0/EmKlPjdu9nY/s1600/LogoUTN.png"></img>
             </div>
             <div class="main">
-            	<a class="box" href="../Inicio/inicio.html">INICIO</a> 
+                <a class="box" href="../Inicio/inicio.html">INICIO</a> 
                 <a class="box" href="../Estudiantes/estudiante.html">ESTUDIANTES</a> 
                 <a class="box" href="../Carreras/carrera.html">CARRERAS</a> 
                 <a class="box" href="../Usuarios/usuario.html">USUARIOS</a>             
             </div>   
-            <div class="inicio_info"> 
-                <h2 id="title_notice">Ultimas Noticias</h2>
-                <p>Apertura del II Cuatrimestre el 14 julio</p>
-                <p>Apertura de cursos libres en fibra optica</p>
-                <p>Costa Rica avanza a cuartos de la copa mundial de futbol</p>
-                <p>Cierre de carrera de mecanografia</p>
-                <p>La gasolina alcanza su precio mas alto en la historia 780 x litro</p>
-                <p>Abiertas las inscripciones para solicitudes de becas</p>
+            <div class="titulo_secundario">
+                <h2 id="title_notice">Usuarios</h2 > 
+                <div><label for="search">Nombre de usuario</label>
+                <input type="text" id="search" name="search" ></input> <br />  <br />  
+                </div>  
+            </div>
+            <div class="estudiante_info"> 
+                              
+                <table border=”0″ cellpadding=”0″ cellspacing=”0″>
+                <tr>
+                <th>Nick</th>
+                <th>Nombre</th>
+                <th>Cedula</th> 
+                <th>Permisos</th> 
+                <th>Seleccionar </th></tr>
+                <tr>
+                <th>Sly019</th>
+                <td>Jorge Perez</td>
+                <td>2-649-712</td>
+                <td>Admin</td>
+                <td id"checkbox" ><input type="checkbox"/></td> </tr>
+                <tr>
+                <th>Ruby_51</th>
+                <td>Stephanie Vargas</td>
+                <td>5-317-532</td>
+                <td>Admin/Director</td> 
+                <td id="checkbox" ><input type="checkbox"/></td> </tr>
+                </table>                                
             </div>    
-    	<footer>
+            <div class="botonera">
+                    <button onclick="Funcion_eliminar_usser()">Eliminar</button>
+                    <button onclick="Funcion_agregar_usser()">Agregar</button>
+                    <button onclick="Funcion_ver_usser()">Ver</button>                                     
+                </div> 
+        <footer>
         <p>UTN 2014, todos los derechos reservados &copy;</p>
-        </footer>	 
+        </footer>    
     </body>
 </html>
-
