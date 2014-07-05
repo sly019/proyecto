@@ -11,13 +11,33 @@ div.main{
     padding: 50px;
 }
 
+img#img_login{
+    width:200px;
+    height:231px;
+    padding:0 40px;
+}
+
+
+div.main_content{ 
+    color: black;   
+    width: auto;
+    height: 5px;
+    margin-left: 405px;
+    font-size:22px; 
+    padding: 250px;
+}
+
 input.required {   
     color: green;
-    font-size:20px;     
+    font-size:20px;         
 }
 
 input.ingress {
-    cursor: pointer;
+    cursor: pointer; 
+    width:75px;
+    padding: 4px;
+    margin-top: 30px;
+    margin-left: 100px;   
 }
 
 div.header {
@@ -32,88 +52,86 @@ div#login{
 }
 
 a.box{
-color: green; 
-width:auto;
-height: 5px;
-float:left;
-margin-left: 105px;
-padding: 30px;
+    color: green; 
+    width:auto;
+    height: 5px;
+    float:left;
+    margin-left: 105px;
+    padding: 30px;
 }
 
 footer{
-font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-background:none repeat scroll 0 0 black;
-bottom:0;
-left:0;
-clear:both;
-margin-top:10px;
-padding:5px 5px;
-position: left;
-width:100%;
-height:50px;
-text-align:center;
-border-top: 5px solid green;
-font-size:14px;
-color: red;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    background:none repeat scroll 0 0 black;
+    bottom:0;
+    left:0;
+    clear:both;
+    margin-top:10px;
+    padding:5px 5px;
+    position: left;
+    width:100%;
+    height:50px;
+    text-align:center;
+    border-top: 5px solid green;
+    font-size:14px;
+    color: red;
 }
 
 img#img_inicio{
-width:200px;
-height:131px;
-padding:65px 190px;
+    width:200px;
+    height:131px;
+    padding:65px 190px;
 }
 
 div.inicio_info{
-width:auto;
-height:auto;
-font-size:18px;
-padding:65px 290px;
+    width:auto;
+    height:auto;
+    font-size:18px;
+    padding:37px 290px;
 }
 
 div.botonera{
-width:600px;
-height:100px;
-padding:0px;
-padding-left: 250px;
-text-align: center;
+    width:600px;
+    height:100px;
+    padding:0px;
+    padding-left: 250px;
+    text-align: center;
 }
 
 div.botonera_peq{
-width:600px;
-height:100px;
-padding-left: 250px;
-padding-bottom: 700px; 
-text-align: center;
+    width:600px;
+    height:100px;
+    padding-left: 250px;
+    padding-bottom: 700px; 
+    text-align: center;
 }
 
 
 div.titulo_secundario{
-width:auto;
-height:auto;
-font-size:18px;
-padding:15px 290px;
+    width:auto;
+    height:auto;
+    font-size:18px;
+    padding:15px 290px;
 }
 
 div.estudiante_info{
-width:auto;
-height:auto;
-font-size:18px;
-padding:25px 290px;
-text-align: center;
+    width:auto;
+    height:auto;
+    font-size:18px;
+    padding:25px 290px;
+    text-align: center;
 }
 
-
-
 h2#title_notice{
-font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-font-size:32px;
-color: blue;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:32px;
+    color: blue;
 }
 
 h3#title_main{
-font-family:"Helvetica",Trebuchet, Arial, Helvetica, sans-serif;
-font-size:20px;
-color: white;
+    font-family:"Helvetica",Trebuchet, Arial, Helvetica, sans-serif;
+    font-size:20px;
+    color: white;
 }
 
 td#checkbox{
@@ -136,28 +154,28 @@ div.float{
 }
 
 form#info{
-width:auto;
-height:auto;
-padding: 50px 150px; 
-float: left;
-margin: 0px;
+    width:auto;
+    height:auto;
+    padding: 50px 150px; 
+    float: left;
+    margin: 0px;
 }
 
 div.principal_float{
-float: left; 
-width:1300px;
-height:300px;
-margin-left: 100px;
-margin-top: 20px;
+    float: left; 
+    width:1300px;
+    height:300px;
+    margin-left: 100px;
+    margin-top: 20px;
 }
 
 
 img#img_formulario{
-float: right;
-width:400px;
-height:231px;
-padding-top: 100px;
-padding-right: 270px;
+    float: right;
+    width:400px;
+    height:231px;
+    padding-top: 100px;
+    padding-right: 270px;
 }
 
 div#button{
@@ -165,25 +183,23 @@ div#button{
 }
 
 div#button_Proyecto{
-width:auto;
-height:auto;
-float: left;
-padding-left: 30px; 
-padding-top: 100px;
+    width:auto;
+    height:auto;
+    float: left;
+    padding-left: 30px; 
+    padding-top: 100px;
 }
 
 
 form#proyecto_N{
-width:auto;
-height:auto;
-padding: 187px 150px; 
-float: left;
-margin: 0px;
+    width:auto;
+    height:auto;
+    padding: 187px 150px; 
+    float: left;
+    margin: 0px;
 }
 
 textarea.texarea{
-resize:none;
+    resize:none;
 }
  
-
-button_proyecto

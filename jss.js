@@ -100,14 +100,9 @@ function Funcion_guard_edicion() {
 
 function Funcion_agregada_carrera() {
     alert  ("Se agregó la carrera correctamente")
-       open("../Carreras/carrera.html", "Sizewindow","width=2500,height=1000,scrollbars=no,toolbar=no, Resizable=no")
-        ;  
+        window.close();
 }
 
-function Funcion_cancelar_carrera() {
-       open("../Carreras/carrera.html", "Sizewindow","width=2500,height=1000,scrollbars=no,toolbar=no, Resizable=no")
-        ;  
-}
 
 function Funcion_ver_carrera() {
        open("../Carreras/ver.html", "Sizewindow","width=2500,height=1000,scrollbars=no,toolbar=no, Resizable=no")
@@ -121,13 +116,7 @@ function Funcion_editar_carrera() {
 
 function Funcion_agregada_usser() {
     alert  ("Se agregó el usuario correctamente")
-       open("../Usuarios/usuario.html", "Sizewindow","width=2500,height=1000,scrollbars=no,toolbar=no, Resizable=no")
-        ;  
-}
-
-function Funcion_cancelar_usser() {
-       open("../Usuarios/usuario.html", "Sizewindow","width=2500,height=1000,scrollbars=no,toolbar=no, Resizable=no")
-        ;  
+      window.close();
 }
 
 function Funcion_ver_usser() {
